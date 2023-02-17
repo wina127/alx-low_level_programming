@@ -1,2 +1,2 @@
 #!/bin/bash
-gss-S-masm=intel $CFILE
+gss-S-masm=intel$CFILE
