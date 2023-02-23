@@ -9,7 +9,7 @@ void print_triangle(int size)
 int sp, ro, tr;
 if (size <= 0)
 {
-_puthar('\n');
+_putchar('\n');
 }
 
 else
