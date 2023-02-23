@@ -3,7 +3,7 @@
 
 /**
  * main - cause infinite loop
- * Return: Always success
+ * Return: 0
  */
 
 int main(void)
@@ -11,7 +11,9 @@ int main(void)
 
 int i;
 
-printf("infinite loop incoming :(\n"); i = 0;
+printf("infinite loop incoming :(\n");
+
+i = 0;
 
 /* while (i < 10) */
 /* { */
