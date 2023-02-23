@@ -2,10 +2,11 @@
 
 /**
  * main - cause infinite loop
- * Return: 0
+ * Return: Always success
  */
 
 int main(void)
+{
 
 int i;
 
@@ -19,4 +20,4 @@ i = 0;
 
 printf("infinite loop avoided! \\o/\n");
 return (0);
-
+}
