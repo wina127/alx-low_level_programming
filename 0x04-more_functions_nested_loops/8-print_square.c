@@ -20,7 +20,7 @@ _putchar('#');
 
 for (ro = 2; ro <= size; ro++)
 {
-putchar('#');
+_putchar('#');
 }
 _putchar('\n');
 }
