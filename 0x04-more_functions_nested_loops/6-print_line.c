@@ -15,7 +15,7 @@ _putchar('\n');
 
 else
 {
-for (co = 1; c0 <= n; co++)
+for (co = 1; co <= n; co++)
 {
 _putchar('_');
 }
