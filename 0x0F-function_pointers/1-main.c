@@ -9,7 +9,7 @@
  */
 void print_elem(int elem)
 {
-    printf("%d\n", elem);
+printf("%d\n", elem);
 }
 
 /**
@@ -20,5 +20,5 @@ void print_elem(int elem)
  */
 void print_elem_hex(int elem)
 {
-    printf("0x%x\n", elem);
+printf("0x%x\n", elem);
 }
