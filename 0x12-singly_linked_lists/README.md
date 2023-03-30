@@ -1,0 +1,51 @@
+#0. Print list (mandatory)
+
+Write a function that prints all the elements of a list_t list.
+
+Prototype: size_t print_list(const list_t *h); Return: the number of nodes Format: see example If str is NULL, print [0] (nil) Use of printf is allowed
+
+#1. List length (mandatory)
+
+Write a function that returns the number of elements in a linked list_t list.
+
+Prototype: size_t list_len(const list_t *h);
+
+#2. Add node (mandatory)
+
+Write a function that adds a new node at the beginning of a list_t list.
+
+Prototype: list_t *add_node(list_t **head, const char *str);
+
+Return: the address of the new element, or NULL if it failed str needs to be duplicated You are allowed to use strdup
+
+#3. Add node at the end (mandatory)
+
+Write a function that adds a new node at the end of a list_t list.
+
+Prototype: list_t *add_node_end(list_t **head, const char *str);
+
+Return: the address of the new element, or NULL if it failed str needs to be duplicated Use of strdup is allowed
+
+#4. Free list (mandatory)
+
+Write a function that frees a list_t list.
+
+Prototype: void free_list(list_t *head);
+
+#5. The Hare and the Tortoise (advanced)
+
+Write a function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+
+Use of printf function is allowed
+
+#6. Real programmers can write assembly code in any language (advanced)
+
+Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
+
+Only allowed to use the printf function
+
+Not allowed to use interrupts
+
+The program will be compiled using nasm and gcc:
+
+nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
