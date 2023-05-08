@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * append_text_to_file- apend text to file
+ * append_text_to_file - apend text to file
  * @filename: path to file
  * @text_content: content
  * Return: 1 or -1
