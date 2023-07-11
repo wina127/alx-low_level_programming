@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, WRITE_ERR, argv[2]), exit(99);
 	from = open(argv[1], O_RDONLY);
 	if (from == -1)
-		dprintf(STDEER_FILENO, READ_ERR, argv[1]), exit(98);
+		dprintf(STDERR_FILENO, READ_ERR, argv[1]), exit(98);
 	while (1)
 	{
 		r = read(from, buffer, 1024);

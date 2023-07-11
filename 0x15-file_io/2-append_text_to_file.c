@@ -25,7 +25,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (!text_content)
 	{
 		close(fd);
-		return (l);
+		return (1);
 	}
 
 	size = _strlen(text_content);
@@ -57,5 +57,5 @@ int _strlen(const char *s)
 		i++;
 	}
 
-	return (l);
+	return (1);
 }
