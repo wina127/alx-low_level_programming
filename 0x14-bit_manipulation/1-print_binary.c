@@ -21,7 +21,7 @@ void print_binary(unsigned long int num)
 		}
 		else if (leading_zeros)
 		{
-			_putcher('0');
+			_putchar('0');
 		}
 	}
 
