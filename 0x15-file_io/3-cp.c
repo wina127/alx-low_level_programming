@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
 		{
 			dprintf(STDERR_FILENO, "Error: can't read from file %s\n", argv[1]);
 			free(buffer);
-			exit (98);
+			exit(98);
 		}
 
 		/* write from buffer to file_to */
@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
 		/*open file_to for appending */
 		to = open(argv[2], O_WRONLY | O_APPEND);
 
-	}while (r > 0);
+	} while (r > 0);
 
 	/* Free memory allocated for buffer and close files */
 	free(buffer);
